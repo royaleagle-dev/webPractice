@@ -1,0 +1,47 @@
+/* main css style */
+
+body{
+	background-color:orange;
+	color:white;
+	font-family:sans-serif;
+	text-align: center;
+	margin:0;
+	padding:0;
+}
+
+.content{
+	margin-top:0;
+	margin-right: 25%;
+	margin-left: 25%;
+	min-height: 25vh;
+	
+}
+
+#count{
+	margin:0;
+	font-size:30vw;
+}
+
+.btn{
+	margin-top:0;
+	padding:10px 15px 10px 15px;
+	margin-bottom:5px;
+	border-radius:15px;
+	border:none;
+	outline:none;
+}
+
+.btn:hover{
+	color:yellow;
+	cursor:pointer;
+}
+
+.low{
+	background-color:red;
+	colow:white;
+}
+
+.add{
+	background-color:blue;
+	color:white;
+}
