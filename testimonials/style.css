@@ -1,0 +1,24 @@
+.frame{
+	border: 3px solid black;
+	padding:4px;
+	background-color:black;
+	min-height: 500px;
+}
+
+.frame .picture{
+	text-align:center;
+	padding:4px;
+	color:white;
+	height:100px;
+	width:150px;
+}
+
+#img{
+	max-width:100%;
+	object-fit:cover;
+}
+
+#testimony::before, #testimony::after{
+	content:'"';
+}
+
