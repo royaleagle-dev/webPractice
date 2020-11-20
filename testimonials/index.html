@@ -6,6 +6,11 @@
 		<link rel = "stylesheet" href = "../assets/bootstrap.min.css">
 	</head>
 	<body>
+		<div class = "preloader-wrapper">
+			<div class = "preloader">
+				<img src = "../assets/loader.gif" alt = "Preloader">
+			</div>
+		</div>
 		<div class = "container">
 			<div class = "row">
 			<div class = "col mt-5"align = "center">
@@ -16,10 +21,24 @@
 					<div class = "text" style = "margin-top:35px;">
 						<p id = "testimony" style = "font-size:2em;font-family:cursive;color:white;"></p>
 					</div>
+					<div align = "left">
+						<button class = "btn btn-danger" id = "prev">Prev</button>
+						<button class = "btn btn-danger float-right" id = "next">Next</button>
+					</div>
 				</div>
 			</div>
 			</div>
 		</div>
+		<script>
+		var body = document.querySelector("body");
+body.setAttribute("class", "preloader-site");
+
+window.onload = function(){
+	var preloader = document.querySelector(".preloader-wrapper");
+	preloader.style.display = 'none';
+	body.setAttribute("class", "");
+}
+		</script>
 		<script src = "app.js"></script>
 	</body>
 </html>
